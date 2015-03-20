@@ -9859,7 +9859,7 @@ value. Activating it once changes the value to <code>true</code>, and activating
 				<pre class="example highlight">
 &lt;div role="grid" aria-rowcount="2000"&gt;
   &lt;div role="rowgroup"&gt;
-    &lt;div role="row"&gt;
+    &lt;div role="row" <strong>aria-rowindex="1"</strong>&gt;
       &lt;span role="columnheader" <strong>aria-rowindex="1"</strong>&gt;First Name&lt;/span&gt;
       &lt;span role="columnheader" <strong>aria-rowindex="1"</strong>&gt;Last Name&lt;/span&gt;
       &lt;span role="columnheader" <strong>aria-rowindex="1"</strong>&gt;Company&lt;/span&gt;
@@ -9867,19 +9867,19 @@ value. Activating it once changes the value to <code>true</code>, and activating
     &lt;/div&gt;
   &lt;/div&gt;
   &lt;div role="rowgroup"&gt;
-    &lt;div role="row"&gt;
+    &lt;div role="row" <strong>aria-rowindex="100"</strong>&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="100"</strong>&gt;Fred&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="100"</strong>&gt;Jackson&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="100"</strong>&gt;&gt;Acme, Inc.&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="100"</strong>&gt;555-1234&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div role="row"&gt;
+    &lt;div role="row" <strong>aria-rowindex="101"</strong>&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="101"</strong>&gt;Sara&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="101"</strong>&gt;James&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="101"</strong>&gt;&gt;Acme, Inc.&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="101"</strong>&gt;555-1235&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div role="row"&gt;
+    &lt;div role="row" <strong>aria-rowindex="102"</strong>&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="102"</strong>&gt;Taylor&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="102"</strong>&gt;Johnson&lt;/span&gt;
       &lt;span role="gridcell" <strong>aria-rowindex="102"</strong>&gt;&gt;Acme, Inc.&lt;/span&gt;
